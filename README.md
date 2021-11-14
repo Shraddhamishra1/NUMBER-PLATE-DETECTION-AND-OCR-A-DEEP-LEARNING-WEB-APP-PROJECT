@@ -45,6 +45,19 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 * This deep learning object detection model is trained using InceptionResnet V2 in TensorFlow 2. 
 * Provide path of object detection folder to Tensorboard to complete trainning Preprocessing
 * Save model to models folder in same directory
+
+### Run Tensorboard
+![](/Screenshots/run_tb.png)
+
+### Tensorboard trainning Scalars output
+
+![](/Screenshots/tb_scalar.png)
+
+
+### Tensorboard trainning Timeseries output
+
+![](/Screenshots/tb_timeseries.png)
+
 ### Predictions
 * Load model saved in ```./models/object_detection.h5``` in keras models
 * Load image and convert it into array and get normalized output
@@ -83,6 +96,10 @@ python app.py
 ## Output of Number plate detection
 
 ![](/Screenshots/UI.png)
+
+### Determine number plate co-ordinates
+
+![](/Screenshots/cods_op.png)
 
 ## Output of OCR 
 
