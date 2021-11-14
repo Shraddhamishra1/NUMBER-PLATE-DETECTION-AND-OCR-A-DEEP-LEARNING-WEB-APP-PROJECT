@@ -21,7 +21,6 @@ This model,is used to extract text from image.Deep Learning model pipeline is bu
 ## Installation
 
 * Install image Annotation Tool https://github.com/tzutalin/labelImg
-
 * LabelImg is a graphical image annotation tool. 
 * Annotations are saved as XML files in PASCAL VOC format, the format used by ImageNet. Besides, it also supports YOLO and CreateML formats.
 
@@ -43,7 +42,7 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ## Deep Learning Model
 ### Trainning
 * This deep learning object detection model is trained using InceptionResnet V2 in TensorFlow 2. 
-* In object detecion case I trained InceptionResnet V2 model. After training I saved model. you can save your model in the models directory to use it.
+* In object detection case I trained InceptionResnet V2 model. After training I saved model. you can save your model in the models directory to use it.
 * Provide path of object detection folder to Tensorboard to complete trainning Preprocessing
 * Save model to models folder in same directory
 ### Predictions
