@@ -3,6 +3,7 @@
 Deep Learning project to identify number plate positions and character recognition.Using the Object Detection model, image which contains the license plate are cropped which is also called the region of interest(ROI), and pass the ROI to Optical Character Recognition API Tesseract in Python (Pytesseract). 
 This model,is used to extract text from image.Deep Learning model pipeline is build by putting all together.
 
+![](/Screenshots/UI.png)
 
 ## Dependencies
 
@@ -16,10 +17,6 @@ This model,is used to extract text from image.Deep Learning model pipeline is bu
     8) Bootstrap
     9) Flask
     10) OS
-
-
-
-
 
 ## Installation
 
@@ -79,4 +76,14 @@ pip install flask
 * Run App 
 ```
 python app.py
+
 ```
+![](/Screenshots/run_app.png)
+
+## Output of Number plate detection
+
+![](/Screenshots/UI.png)
+
+## Output of OCR 
+
+![](/Screenshots/OCR.jpeg)
